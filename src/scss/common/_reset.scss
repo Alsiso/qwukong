@@ -29,7 +29,6 @@ h6 {
     font-weight: normal;
 }
 
-
 // List
 ul,
 li,
@@ -71,11 +70,13 @@ th {
     padding: 0;
     text-align: left
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-button,input{
+button,
+input {
     outline: none;
 }
 
@@ -84,4 +85,3 @@ body {
     font-size: 14px;
     font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-

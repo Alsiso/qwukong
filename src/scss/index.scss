@@ -1,16 +1,21 @@
 @import "./common/_reset";
-.language{
+@import "./common/_mixins";
+.language {
     font-size: 18px;
     text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    .text{
+    .text {
         font-size: 30px;
         text-align: center;
         color: blue;
     }
 }
 
+.test {
+    @include clearfix;
+}
